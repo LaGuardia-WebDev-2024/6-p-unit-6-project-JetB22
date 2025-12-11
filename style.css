@@ -20,6 +20,9 @@ html{
 #myCanvas {
   border-radius: 30px;
   border: 15px double rgb(0, 0, 0);
+  background-image: url(Totally\ normal\ spongebob.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container{
