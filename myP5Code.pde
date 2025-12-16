@@ -12,8 +12,8 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
-// Eyes
-fill(1,1,1,0)
+//Eyes
+fill(255,255,255)
 strokeWeight(3)
 ellipse(93,128,80,80)
 ellipse(313,135,83,83)
@@ -21,7 +21,9 @@ strokeWeight(2)
 
 //Cornea
 fill(105, 213, 249)
-ellipse(327,143,40,30)
+rotate(-.2)
+ellipse(291,204,40,30)
+rotate(.2)
 rotate(.3)
 ellipse(105,89,30,40)
 rotate(-.3)
@@ -30,6 +32,12 @@ rotate(-.3)
 fill(1,1,1)
 ellipse(75,115,5,5)
 ellipse(327,142,5,5)
+
+//Eyelash
+line(72,78,77,92)
+line(54,80,69,99)
+
+
 
   
 
