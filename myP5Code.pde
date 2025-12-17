@@ -34,12 +34,38 @@ ellipse(75,115,5,5)
 ellipse(327,142,5,5)
 
 //Eyelash
+strokeWeight(2)
 line(72,78,77,92)
 line(54,80,69,99)
+line(49,100,59,107)
+line(357,100,348,111)
+line(372,115,352,121)
+line(355,136,371,136)
 
 
+//teeth
+strokeWeight(3)
+fill(255,255,255)
+beginShape();
+curveVertex(155,265);
+curveVertex(156,231);
+curveVertex(139,216);
+curveVertex(116,228);
+curveVertex(104,263);
+curveVertex(155,265);
+curveVertex(156,231);
+endShape(CLOSE);
 
-  
+beginShape();
+curveVertex(237,257);
+curveVertex(215,223);
+curveVertex(180,218);
+curveVertex(164,234);
+curveVertex(174,274);
+curveVertex(237,257);
+curveVertex(215,223);
+endShape(CLOSE);
+
 
 }
 
