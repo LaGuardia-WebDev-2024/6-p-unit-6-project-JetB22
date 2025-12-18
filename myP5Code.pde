@@ -43,6 +43,62 @@ line(372,115,352,121)
 line(355,136,371,136)
 
 
+//rgba(254, 167, 194), rgba(190, 18, 58), rgba(254, 254, 0), rgba(199, 195, 44)
+
+//Gums
+beginShape();
+curveVertex(119, 216.81818389892578);
+curveVertex(116, 224.81818389892578);
+curveVertex(120, 228.81818389892578);
+curveVertex(125, 230.81818389892578);
+curveVertex(135, 230.81818389892578);
+curveVertex(138, 229.81818389892578);
+curveVertex(158, 228.81818389892578);
+curveVertex(165, 228.81818389892578);
+curveVertex(172, 231.81818389892578);
+curveVertex(188, 232.81818389892578);
+curveVertex(197, 234.81818389892578);
+curveVertex(211, 232.81818389892578);
+curveVertex(218, 224.81818389892578);
+curveVertex(223, 219.81818389892578);
+curveVertex(229, 211.81818389892578);
+curveVertex(202, 207.81818389892578);
+curveVertex(183, 205.81818389892578);
+curveVertex(168, 207.81818389892578);
+curveVertex(152, 207.81818389892578);
+curveVertex(141, 210.81818389892578);
+curveVertex(129, 211.81818389892578);
+curveVertex(120, 211.81818389892578);
+endShape(CLOSE);
+
+//mouth
+fill(168, 11, 6)
+//beginShape();
+curveVertex(308,186);
+curveVertex(302,200);
+curveVertex(291,225);
+curveVertex(281,248);
+curveVertex(274,274);
+curveVertex(259,291);
+curveVertex(245,297);
+curveVertex(232,296);
+curveVertex(223,293);
+curveVertex(210,292);
+curveVertex(193,295);
+curveVertex(176,299);
+curveVertex(157,291);
+curveVertex(144,270);
+curveVertex(139,254);
+curveVertex(122,211);
+curveVertex(175,210);
+curveVertex(204,211);
+curveVertex(243,212);
+curveVertex(267,206);
+curveVertex(294,195);
+curveVertex(308,186);
+curveVertex(302,200);
+//endShape(CLOSE);
+
 //teeth
 strokeWeight(3)
 fill(255,255,255)
@@ -65,6 +121,13 @@ curveVertex(174,274);
 curveVertex(237,257);
 curveVertex(215,223);
 endShape(CLOSE);
+
+
+
+
+
+
+
 
 
 }
