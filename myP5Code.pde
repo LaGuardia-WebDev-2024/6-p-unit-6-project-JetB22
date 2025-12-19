@@ -12,6 +12,7 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
 
+stroke(0,0,0)
 //Eyes
 fill(255,255,255)
 strokeWeight(3)
@@ -45,35 +46,12 @@ line(355,136,371,136)
 
 //rgba(254, 167, 194), rgba(190, 18, 58), rgba(254, 254, 0), rgba(199, 195, 44)
 
-//Gums
-beginShape();
-curveVertex(119, 216.81818389892578);
-curveVertex(116, 224.81818389892578);
-curveVertex(120, 228.81818389892578);
-curveVertex(125, 230.81818389892578);
-curveVertex(135, 230.81818389892578);
-curveVertex(138, 229.81818389892578);
-curveVertex(158, 228.81818389892578);
-curveVertex(165, 228.81818389892578);
-curveVertex(172, 231.81818389892578);
-curveVertex(188, 232.81818389892578);
-curveVertex(197, 234.81818389892578);
-curveVertex(211, 232.81818389892578);
-curveVertex(218, 224.81818389892578);
-curveVertex(223, 219.81818389892578);
-curveVertex(229, 211.81818389892578);
-curveVertex(202, 207.81818389892578);
-curveVertex(183, 205.81818389892578);
-curveVertex(168, 207.81818389892578);
-curveVertex(152, 207.81818389892578);
-curveVertex(141, 210.81818389892578);
-curveVertex(129, 211.81818389892578);
-curveVertex(120, 211.81818389892578);
-endShape(CLOSE);
 
+
+stroke(0,0,0)
 //mouth
 fill(168, 11, 6)
-//beginShape();
+beginShape();
 curveVertex(308,186);
 curveVertex(302,200);
 curveVertex(291,225);
@@ -97,8 +75,33 @@ curveVertex(267,206);
 curveVertex(294,195);
 curveVertex(308,186);
 curveVertex(302,200);
-//endShape(CLOSE);
+endShape(CLOSE);
 
+//Gums
+fill(254, 167, 194)
+stroke(190, 18, 58)
+beginShape();
+curveVertex(232,212)
+curveVertex(221,226)
+curveVertex(205,233)
+curveVertex(168,232)
+curveVertex(150,229)
+curveVertex(126,233)
+curveVertex(114,233)
+curveVertex(108,230)
+curveVertex(105,224)
+curveVertex(103,216)
+curveVertex(118,213)
+curveVertex(146,210)
+curveVertex(176,209)
+curveVertex(214,212)
+curveVertex(231,212)
+curveVertex(221,226)
+curveVertex
+curveVertex
+endShape(CLOSE);
+
+stroke(0,0,0)
 //teeth
 strokeWeight(3)
 fill(255,255,255)
@@ -121,6 +124,7 @@ curveVertex(174,274);
 curveVertex(237,257);
 curveVertex(215,223);
 endShape(CLOSE);
+
 
 
 
